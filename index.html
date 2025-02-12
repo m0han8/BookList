@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>BookList App</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1 id="title">Booklist</h1>
-      <div class="input-container">
-      <input type="text" id="book" placeholder="Enter the name of the book">
-      <input type="text" id="author" placeholder="Enter the name of the author">
-      <button id="click">Add</button>
-      </div>
-      <div id="box">
-        <h3 id="no"></h3>
-        <h3 id="in"></h3>
-        <h3 id="out"></h3>
-        <button id="delete">Delete</button>
-      </div>
-      <script src="script.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Booklist</h1>
+        <div class="input-container">
+            <input type="text" id="book" placeholder="Book Name">
+            <input type="text" id="author" placeholder="Author">
+            <button id="add">Add Book</button>
+        </div>
+        <ul id="book-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
